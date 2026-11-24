@@ -199,7 +199,7 @@ Customer Feedback
 
 ## 🖥️ Dashboard Components
 
-<img width="1354" height="605" alt="image" src="https://github.com/user-attachments/assets/3da5d3d5-5931-4507-ae72-d21e9cf484cb" />
+<img width="1098" height="558" alt="image" src="https://github.com/user-attachments/assets/b8ed3a00-c381-4a4d-bc01-d4ec29aff733" />
 
 ---
 
