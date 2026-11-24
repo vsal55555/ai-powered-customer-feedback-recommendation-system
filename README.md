@@ -321,6 +321,3 @@ Focused on:
 - Data Engineering
 - Cloud Technologies
 
-LinkedIn: Add Your LinkedIn URL
-
-GitHub: Add Your GitHub URL
