@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+appsettings.json
+
+# Python
+__pycache__/
+venv/
+.env
+
+
+# Logs
+logs/
+
+# SQL Local DB
+*.mdf
+*.ldf

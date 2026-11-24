@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FeedbackIntelligenceSystem.API/FeedbackIntelligenceSystem.API.csproj" />
+  <Project Path="FeedbackIntelligenceSystem.UI/FeedbackIntelligenceSystem.UI.csproj" />
+</Solution>

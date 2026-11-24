@@ -1,0 +1,43 @@
+﻿@page "/dashboard"
+@using FeedbackIntelligenceSystem.UI.Models
+@using FeedbackIntelligenceSystem.UI.Services
+
+<h3>Customer Feedback Dashboard</h3>
+
+<p>Total Incidents: @Feedbacks.Count</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ticket</th>
+            <th>Category</th>
+            <th>Priority</th>
+            <th>Assigned Team</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Feedbacks)
+        {
+            <tr>
+                <td>@item.IncidentTicket</td>
+                <td>@item.Category</td>
+                <td>@item.Priority</td>
+                <td>@item.AssignedTeam</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+
+    private List<FeedbackResponse> Feedbacks = new();
+
+    [Inject]
+    private FeedbackApiService ApiService { get; set; } = default!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Feedbacks = await ApiService.GetFeedbacks();
+    }
+}
